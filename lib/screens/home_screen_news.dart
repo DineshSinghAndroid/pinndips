@@ -47,19 +47,19 @@ class _HomeScreenNewsState extends State<HomeScreenNews> {
           child: Column(
             children: [
               addHeight(20.h),
-              appBar2("Updates & News"),
+              appBar2(" "),
               addHeight(30.h),
               Container(
                 height: MediaQuery.of(context).size.height,
                 child: ListView.builder(
-                  itemCount: 132,
+                  itemCount: imgs.length,
                   itemBuilder: (context, index) {
                     return GestureDetector(
                       onTap: () {
                         Get.toNamed(MyRouter.newsFullDetailsScreen);
                       },
                       child: Container(
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                             color: Color(0xff333751),
                             borderRadius:
                                 BorderRadius.all(Radius.circular(10))),
