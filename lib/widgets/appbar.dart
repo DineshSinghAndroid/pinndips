@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../routers/my_router.dart';
 import '../utils/images.dart';
 
 Container appBar1(text1) {
@@ -53,7 +54,7 @@ Container appBar2(text1) {
         ),
         GestureDetector(
           onTap: () {
-            Get.back();
+            Get.toNamed(MyRouter.notificationScreen);
           },
           child: Container(
             height: 30.h,

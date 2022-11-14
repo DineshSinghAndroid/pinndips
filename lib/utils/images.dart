@@ -31,4 +31,13 @@ class Ig {
   static const String notificationBellIcon =
       "assets/images/notificationBellIcon.png";
   static const String newsIMg = "assets/images/newsIMg.png";
+  static const String walletIcon = "assets/images/walletIcon.png";
+  static const String dolloerIcon = "assets/images/dolloerIcon.png";
+  static const String percentageIcon = "assets/images/percentageIcon.png";
+  static const String stopLossCircleIcon =
+      "assets/images/stopLossCircleIcon.png";
+  static const String containerTextFormField =
+      "assets/images/containerTextFormField.png";
+  static const String pricingPlanBackground =
+      "assets/images/pricingPlanBackground.png";
 }

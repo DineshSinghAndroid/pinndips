@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
+import 'package:pinndip/screens/praveensir/education_screen.dart';
+import 'package:pinndip/screens/signals_screen.dart';
 import '../utils/images.dart';
-import 'education_screen.dart';
+import 'calculator_screen.dart';
 import 'home_screen_news.dart';
 import 'my_profile_screen.dart';
 
@@ -23,8 +24,8 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
   final pages = [
     HomeScreenNews(),
     EducationScreen(),
-    Text("FUck"),
-    Text("FUck"),
+    SignalsScreen(),
+    CalculatorScreen(),
     ProfileScreen(),
   ];
 
