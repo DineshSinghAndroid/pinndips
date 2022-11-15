@@ -40,4 +40,19 @@ class Ig {
       "assets/images/containerTextFormField.png";
   static const String pricingPlanBackground =
       "assets/images/pricingPlanBackground.png";
+
+  static const String homeColor = "assets/images/bottom/homeColor.png";
+  static const String edu = "assets/images/bottom/edu.png";
+  static const String eduColor = "assets/images/bottom/eduColor.png";
+  static const String signal = "assets/images/bottom/signal.png";
+  static const String calcu = "assets/images/bottom/calcu.png";
+  static const String person = "assets/images/bottom/person.png";
+  static const String calcuColor = "assets/images/bottom/calcuColor.png";
+  static const String signalColor = "assets/images/bottom/signalColor.png";
+  static const String subscriptionBackground =
+      "assets/images/subscriptionBackground.png";
+  static const String ruppeIcon = "assets/images/ruppeIcon.png";
+  static const String freeSignalImgContainer =
+      "assets/images/freeSignalImgContainer.png";
+  static const String chartSignal = "assets/images/chartSignal.png";
 }

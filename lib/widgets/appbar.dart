@@ -69,6 +69,17 @@ Container appBar2(text1) {
   );
 }
 
+Container appBar3(text1) {
+  return Container(
+    height: 40.h,
+    child: Text(
+      text1,
+      style: GoogleFonts.sourceSansPro(
+          fontSize: 31.sp, color: Colors.white, fontWeight: FontWeight.w600),
+    ),
+  );
+}
+
 SizedBox addHeight(double size) => SizedBox(height: size.h);
 
 SizedBox addWidth(double size) => SizedBox(width: size.w);

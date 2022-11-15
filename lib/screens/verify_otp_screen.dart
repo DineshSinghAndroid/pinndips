@@ -74,7 +74,7 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
               ),
               addHeight(48.h),
               commonButton1("Verify", () {
-                Get.toNamed(MyRouter.signUpScreen);
+                Get.toNamed(MyRouter.customBottomNavigationBar);
               }),
               addHeight(32.h),
               Row(
@@ -92,7 +92,7 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
                           text: " Resend",
                           style: GoogleFonts.inter(
                               fontWeight: FontWeight.w600,
-                              fontSize: 13.sp,
+                              fontSize: 18.sp,
                               color: Colors.blue),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () {

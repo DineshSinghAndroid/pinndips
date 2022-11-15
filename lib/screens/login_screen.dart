@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Column(
                   children: [
                     addHeight(50.h),
-                    appBar1("Login"),
+                    appBar3("Login"),
                     addHeight(70.h),
                     const CommonTextFieldWidget(
                       hint: "Your Email Address",

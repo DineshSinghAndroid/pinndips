@@ -47,7 +47,7 @@ class _HomeScreenNewsState extends State<HomeScreenNews> {
           child: Column(
             children: [
               addHeight(20.h),
-              appBar2(" "),
+              appBar2("Updates & News "),
               addHeight(30.h),
               Container(
                 height: MediaQuery.of(context).size.height,

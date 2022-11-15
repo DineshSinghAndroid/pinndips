@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pinndip/screens/paid_signals_screen.dart';
 import 'package:pinndip/screens/praveensir/tutorials_screen.dart';
 import 'package:pinndip/screens/praveensir/video_screen.dart';
+import 'package:pinndip/screens/signals/paid_signal_screen.dart';
 
 import 'free_signals_screen.dart';
 
@@ -20,6 +21,8 @@ class _EducationScreenState extends State<SignalsScreen> {
     return Scaffold(
       backgroundColor: const Color(0xff101629),
       body: Container(
+        padding: EdgeInsets.symmetric(vertical: 30.h),
+        width: MediaQuery.of(context).size.width,
         child: Column(
           children: [
             Container(
@@ -89,15 +92,8 @@ class _EducationScreenState extends State<SignalsScreen> {
             ),
             Expanded(
                 child: selectedIndex == 0
-                    ? Padding(
-                        padding:
-                            const EdgeInsets.only(left: 25, right: 25, top: 10),
-                        child: FreeSignalsScreen(),
-                      )
-                    : Padding(
-                        padding:
-                            const EdgeInsets.only(left: 25, right: 25, top: 10),
-                        child: PaidSignalsScreen()))
+                    ? FreeSignalsScreen()
+                    : PaidSignalScreen())
           ],
         ),
       ),
